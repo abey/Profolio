@@ -1,0 +1,185 @@
+/* =============== MAIN CONTENT start =============== */
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+#header {
+    background-color: black;
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+
+/* ================ MAIN CONTENT end ================ */
+
+
+/* =============== CONTAINER 1 start =============== */
+
+.bg-1 {
+    background: #90AFC5 url(../img/background.jpg) center top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.bg-1 p, h1, h2 {
+    width: 40%;
+}
+
+.bg-1 h1 {
+    font-size: 11vw;
+}
+
+.bg-1 h1:nth-child(2) {
+    margin-top: -6%;
+}
+
+.bg-1 h2 {
+    font-size: 3.4vw;
+    display: inline;
+    padding-top: 10%;
+}
+
+
+/* ================ CONTAINER 1 end ================ */
+
+
+/* =============== CONTAINER 2 start =============== */
+
+.bg-2 {
+    background-color: #2A3132;
+    color: #ffffff;
+    margin-bottom: -10%;
+}
+
+.bg-2 h3, .bg-3 h3 {
+    font-size: 150%;
+}
+
+.modal-content p {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#modelView {
+    width: 100%
+}
+
+
+/* ================ CONTAINER 2 end ================ */
+
+
+/* =============== CONTAINER 3 start =============== */
+
+.contactForm {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contactForm label {
+    float: left;
+}
+
+.bg-3 {
+    background-color: #336B87;
+    color: #fff;
+}
+
+
+/* ================ CONTAINER 3 end ================ */
+
+
+/* =============== CONTAINER 4 start =============== */
+
+.bg-4 {
+    background-color: #2A3132;
+    color: #fff;
+}
+
+.footerContent {
+    margin-top: -3%;
+    margin-bottom: -5%;
+    font-size: 70%;
+}
+
+.footerContent i {
+    font-size: 130%;
+    color: white;
+}
+
+
+/* ================ CONTAINER 4 end ================ */
+
+
+/* ==========================================================================
+    MOBIE VIEW MEDIA QUERIES
+   ========================================================================== */
+
+@media (max-width: 700px) {
+    .bg-1 h2 {
+        font-size: 4vw;
+        display: inline;
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 425px) {
+    .bg-3 h3 {
+        margin-top: -10%;
+        margin-bottom: -5%;
+    }
+    .bg-2 h3 {
+        margin-top: -10%;
+        margin-bottom: -15%;
+    }
+    .footerContent {
+        margin-top: -15%;
+    }
+    .bg-1 h2 {
+        font-size: 7vw;
+    }
+}

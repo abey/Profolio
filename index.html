@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- MIT License
+
+Copyright (c) 2017 Abinodh Thomas (abinodh.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. -->
+
+<head>
+    <title>Profiler • Portfolio/Profile Theme by abinodh.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.homeycombs.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/liquid-scroll.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/homeycombs.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav id="header" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">JD</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a data-scroll href="#porfolio" href="#">PORTFOLIO</a></li>
+                    <li><a data-scroll href="#contact" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Container -->
+    <div id="home" class="container-fluid bg-1 text-left">
+        <h1 class="margin">Jane</h1>
+        <h1 class="margin">Doe</h1>
+        <h2 class="element"></h2>
+        <br>
+        <section id="section05" class="demo">
+            <a data-scroll href="#porfolio" href="#section06"><span></span>Scroll Down</a>
+        </section>
+    </div>
+
+    <!-- Portfolio Container -->
+    <div id="porfolio" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Portfolio</h3>
+
+        <!-- Honey Comb Structure Start -->
+        <div class="honeycombs">
+            <div data-toggle="modal" data-target=".bd-example-modal-lg" class="comb"> <img src="img/model-girl.jpg" />
+                <span>Lorem ipsum dolor sit amet</span></div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg2" class="comb"> <img src="img/model-girl2.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg3" class="comb"> <img src="img/model-girl3.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg" class="comb"> <img src="img/model-girl.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg2" class="comb"> <img src="img/model-girl2.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg3" class="comb"> <img src="img/model-girl3.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg" class="comb"> <img src="img/model-girl.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+            <div data-toggle="modal" data-target=".bd-example-modal-lg2" class="comb"> <img src="img/model-girl2.jpg" />
+                <span>Lorem ipsum dolor sit amet</span> </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <img id="modelView" src="img/model-girl.jpg" />
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <img id="modelView" src="img/model-girl2.jpg" />
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <img id="modelView" src="img/model-girl3.jpg" />
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+        <!-- Honey Comb Structure End -->
+    </div>
+
+    <!-- Contact Container -->
+    <div id="contact" class="container-fluid bg-3 text-center">
+        <h3 class="margin">Contact</h3><br>
+        <div class="row contactForm">
+            <div class="col-sm-5 text-left">
+                <p>Phone <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> : +1 (123) 456-7890</p>
+                <p>Email <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : contact@example.com</p>
+                <p>Address <span class="glyphicon glyphicon-home" aria-hidden="true"></span> : 1457 London Rd, Sarnia, ON, N7S 6K4</p>
+                <iframe width="100%" height="370vh" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBE9CQvgmqnZq59hzKFKp-aFeKJbtojZQ&q=Lambton+College,Sarnia+ON" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-sm-7 contactForm">
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-2 col-form-label">Name</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" id="example-text-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-email-input" class="col-2 col-form-label">Email</label>
+                    <div class="col-10">
+                        <input class="form-control" type="email" id="example-email-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-tel-input" class="col-2 col-form-label">Phone</label>
+                    <div class="col-10">
+                        <input class="form-control" type="tel" id="example-tel-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="comment">Message</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <button type="button" class="btn btn-default btn-lg">Send</button>
+                <button type="button" class="btn btn-default btn-lg">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <div class="footerContent">
+            <a class="up-arrow" href="#home" data-scroll data-toggle="tooltip" title="Scroll Up">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <br>Bootstrap Theme Made By <a href="https://abinodh.com" target="_blank">Abinodh Thomas</a><br>Licence: MIT</p>
+            <p>
+                <a href="#your_facebook_url"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="#your_twitter_url"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#your_instagram_url"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
