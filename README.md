@@ -1,9 +1,7 @@
 # Profiler
----
-##### Responsive One Page Portfolio/Profile Bootstrap ffff
-#
+##### Responsive One Page Portfolio/Profile Bootstrap fff
 #####  [LIVE DEMO](https://abinodh.github.io/Profiler)
-#
+
 _Profiler_ can be used to showcase Photographic or Graphic Design works. It is a single page template built on Bootstrap. These are the main features:
 * __Hexagon (HoneyComb)__ shaped picture gallery.
 * __Font Awesome, Typed.JS__ integration.   
