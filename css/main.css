@@ -49,7 +49,7 @@ p {
 }
 
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color: white !important;
 }
 
 
@@ -122,6 +122,10 @@ p {
 
 .contactForm label {
     float: left;
+}
+
+.contactForm a {
+  color: white;
 }
 
 .bg-3 {

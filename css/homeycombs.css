@@ -83,3 +83,9 @@
 		margin-bottom: -70%;
 	}
 }
+
+@media (min-width: 1458px) {
+	.honeycombs{
+		margin-bottom: 15%;
+	}
+}
